@@ -1,0 +1,51 @@
+body {
+    background-size: contain;
+    background-color: black;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#row-counter {
+    max-width: 30%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    /* position the container in the middle of the page*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: purple;
+}
+
+#save-btn {
+    background: blue;
+}
